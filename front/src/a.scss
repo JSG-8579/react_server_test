@@ -1,0 +1,42 @@
+main {
+    text-align: center;
+    
+    .form1 {
+        width: 50%;
+        margin: 0 auto;
+        border: 1px solid black;
+        padding: 50px;
+        
+    }
+    ul{
+        width: 50%;
+        border: 1px solid black;
+        margin: 0 auto;
+        padding: 50px;
+        border-top:0;
+        li{
+            display: flex;
+            justify-content: space-between;
+            margin: 30px 0;
+            border-bottom: 1px solid black;
+            &.active{
+                background-color: aqua;
+            }
+        }
+
+
+    }
+    .form2 {
+        display: none;
+        &active{
+            width: 50%;
+            margin: 0 auto;
+            border: 1px solid black;
+            padding: 50px;
+            border-top:0;
+        
+        }
+        
+        
+    }
+}
