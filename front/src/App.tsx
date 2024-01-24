@@ -1,12 +1,12 @@
 import React, { useEffect, useRef, useState } from "react";
-import { useStore } from "./store";
+import { useStore2 } from "./store2";
 import { initTy } from './models/dataType';
 import Item from "./Item";
 import './a.scss';
 
 
 function App() {
-  const { data, getData, postData, deleteData, putData, status, isdone }: any = useStore();
+  const { data, getData, postData, deleteData, putData, status, isdone }: any = useStore2();
   //
   const [id, setId] = useState<number | null>(null)
   
