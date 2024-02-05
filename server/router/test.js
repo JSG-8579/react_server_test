@@ -128,7 +128,7 @@ testRouter.put('/test/isdone',function(req,res){
 
 
 
-module.exports = {testRouter, dbConnect};
+module.exports = {testRouter};
 
 // exports.testRouter = testRouter;
 // exports.dbConnect = dbConnect;
